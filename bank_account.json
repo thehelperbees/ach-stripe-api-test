@@ -1,0 +1,16 @@
+{
+    "id": "ba_1LBgIWADPmjTB2uJCtBvkvmN",
+    "object": "bank_account",
+    "account_holder_name": "Eric McTest",
+    "account_holder_type": "individual",
+    "account_type": null,
+    "bank_name": "STRIPE TEST BANK",
+    "country": "US",
+    "currency": "usd",
+    "customer": "cus_LtSRcuAq1WnuP5",
+    "fingerprint": "5pH62pTH7p6Vpw5H",
+    "last4": "6789",
+    "metadata": {},
+    "routing_number": "110000000",
+    "status": "new"
+}
