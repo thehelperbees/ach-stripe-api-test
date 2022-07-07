@@ -1,8 +1,9 @@
 import stripe
 import json
+from settings import API_KEY
 
 
-stripe.api_key = "sk_test_REslpMtFSmqbJ1l5uIPBp9DW"
+stripe.api_key = API_KEY
 
 
 ##########################
@@ -132,3 +133,35 @@ print("CUSTOMER:", customer, '\n')
 print("BANK ACCOUNT:", bank_account, '\n')
 print("CHARGE", charge, '\n')
 print("REFUND", refund, '\n')
+
+
+################
+# SETUP INTENT #
+################
+
+try:
+    with open('setup_intent.json', 'r') as f:
+        intent_data = json.load(f)
+        intent = stripe.SetupIntent.retrieve(
+            intent_data.get('id')
+        )
+except:
+    with open('setup_intent.json', 'w') as f:
+        intent = stripe.SetupIntent.create(
+            customer=customer.id,
+            payment_method_types=['us_bank_account']
+        )
+        f.write(json.dumps(intent, indent=4))
+
+
+######################################
+# SETUP INTENT SEARCH BY CUSTOMER ID #
+######################################
+
+try:
+    with open('setup_intent_list_by_customer.json', 'r') as f:
+        intent_list = json.load(f)
+except:
+    with open('setup_intent_list_by_customer.json', 'w') as f:
+        intent_list = stripe.SetupIntent.list(customer=customer.id)
+        f.write(json.dumps(intent_list, indent=4))

@@ -1,0 +1,313 @@
+{
+    "object": "list",
+    "data": [
+        {
+            "id": "seti_1LGowaADPmjTB2uJmP4mCaH7",
+            "object": "setup_intent",
+            "application": null,
+            "cancellation_reason": null,
+            "client_secret": "seti_1LGowaADPmjTB2uJmP4mCaH7_secret_LymVmbLkI4Bt0FtpdsX0CKdyjpane4S",
+            "created": 1656701516,
+            "customer": "cus_LtSRcuAq1WnuP5",
+            "description": null,
+            "flow_directions": null,
+            "last_setup_error": null,
+            "latest_attempt": "setatt_1LGpB7ADPmjTB2uJKjkHJsiK",
+            "livemode": false,
+            "mandate": "mandate_1LGpB8ADPmjTB2uJDLj7P2fG",
+            "metadata": {},
+            "next_action": null,
+            "on_behalf_of": null,
+            "payment_method": "pm_1LGpB7ADPmjTB2uJO5Ugal3e",
+            "payment_method_options": {
+                "us_bank_account": {
+                    "verification_method": "automatic"
+                }
+            },
+            "payment_method_types": [
+                "us_bank_account"
+            ],
+            "single_use_mandate": null,
+            "status": "succeeded",
+            "usage": "off_session"
+        },
+        {
+            "id": "seti_1LG3iIADPmjTB2uJxOvwzfKQ",
+            "object": "setup_intent",
+            "application": null,
+            "cancellation_reason": null,
+            "client_secret": "seti_1LG3iIADPmjTB2uJxOvwzfKQ_secret_LxzhmK8nlqoJ5GK1oj0q8krgE5dsa5v",
+            "created": 1656519962,
+            "customer": "cus_LtSRcuAq1WnuP5",
+            "description": null,
+            "flow_directions": null,
+            "last_setup_error": null,
+            "latest_attempt": "setatt_1LGomZADPmjTB2uJ8DfJELfC",
+            "livemode": false,
+            "mandate": "mandate_1LGomZADPmjTB2uJoPBR0ZaD",
+            "metadata": {},
+            "next_action": null,
+            "on_behalf_of": null,
+            "payment_method": "pm_1LGomZADPmjTB2uJprkLNRSw",
+            "payment_method_options": {
+                "us_bank_account": {
+                    "verification_method": "automatic"
+                }
+            },
+            "payment_method_types": [
+                "us_bank_account"
+            ],
+            "single_use_mandate": null,
+            "status": "succeeded",
+            "usage": "off_session"
+        },
+        {
+            "id": "seti_1LG2A1ADPmjTB2uJpO1WI5dx",
+            "object": "setup_intent",
+            "application": null,
+            "cancellation_reason": null,
+            "client_secret": "seti_1LG2A1ADPmjTB2uJpO1WI5dx_secret_Lxy6db7eLn1idkxPzxO23z76XU3VaBP",
+            "created": 1656513993,
+            "customer": "cus_LtSRcuAq1WnuP5",
+            "description": null,
+            "flow_directions": null,
+            "last_setup_error": null,
+            "latest_attempt": null,
+            "livemode": false,
+            "mandate": null,
+            "metadata": {},
+            "next_action": null,
+            "on_behalf_of": null,
+            "payment_method": null,
+            "payment_method_options": {
+                "card": {
+                    "mandate_options": null,
+                    "network": null,
+                    "request_three_d_secure": "automatic"
+                },
+                "us_bank_account": {
+                    "verification_method": "automatic"
+                }
+            },
+            "payment_method_types": [
+                "card",
+                "us_bank_account"
+            ],
+            "single_use_mandate": null,
+            "status": "requires_payment_method",
+            "usage": "off_session"
+        },
+        {
+            "id": "seti_1LG29zADPmjTB2uJwn9bYgkr",
+            "object": "setup_intent",
+            "application": null,
+            "cancellation_reason": null,
+            "client_secret": "seti_1LG29zADPmjTB2uJwn9bYgkr_secret_Lxy69sRiX9Tq7mkYVlM4FD0oYX8x0Np",
+            "created": 1656513991,
+            "customer": "cus_LtSRcuAq1WnuP5",
+            "description": null,
+            "flow_directions": null,
+            "last_setup_error": null,
+            "latest_attempt": null,
+            "livemode": false,
+            "mandate": null,
+            "metadata": {},
+            "next_action": null,
+            "on_behalf_of": null,
+            "payment_method": null,
+            "payment_method_options": {
+                "card": {
+                    "mandate_options": null,
+                    "network": null,
+                    "request_three_d_secure": "automatic"
+                },
+                "us_bank_account": {
+                    "verification_method": "automatic"
+                }
+            },
+            "payment_method_types": [
+                "card",
+                "us_bank_account"
+            ],
+            "single_use_mandate": null,
+            "status": "requires_payment_method",
+            "usage": "off_session"
+        },
+        {
+            "id": "seti_1LG29uADPmjTB2uJdjljvgk4",
+            "object": "setup_intent",
+            "application": null,
+            "cancellation_reason": null,
+            "client_secret": "seti_1LG29uADPmjTB2uJdjljvgk4_secret_Lxy62FuP9t6BsOFuiIUG3CJsJ01Avhk",
+            "created": 1656513986,
+            "customer": "cus_LtSRcuAq1WnuP5",
+            "description": null,
+            "flow_directions": null,
+            "last_setup_error": null,
+            "latest_attempt": null,
+            "livemode": false,
+            "mandate": null,
+            "metadata": {},
+            "next_action": null,
+            "on_behalf_of": null,
+            "payment_method": null,
+            "payment_method_options": {
+                "card": {
+                    "mandate_options": null,
+                    "network": null,
+                    "request_three_d_secure": "automatic"
+                },
+                "us_bank_account": {
+                    "verification_method": "automatic"
+                }
+            },
+            "payment_method_types": [
+                "card",
+                "us_bank_account"
+            ],
+            "single_use_mandate": null,
+            "status": "requires_payment_method",
+            "usage": "off_session"
+        },
+        {
+            "id": "seti_1LG29bADPmjTB2uJgIfnrg9k",
+            "object": "setup_intent",
+            "application": null,
+            "cancellation_reason": null,
+            "client_secret": "seti_1LG29bADPmjTB2uJgIfnrg9k_secret_Lxy5D5ZeOaAaiIXVZ1JXd8w64Il0S75",
+            "created": 1656513967,
+            "customer": "cus_LtSRcuAq1WnuP5",
+            "description": null,
+            "flow_directions": null,
+            "last_setup_error": null,
+            "latest_attempt": null,
+            "livemode": false,
+            "mandate": null,
+            "metadata": {},
+            "next_action": null,
+            "on_behalf_of": null,
+            "payment_method": null,
+            "payment_method_options": {
+                "card": {
+                    "mandate_options": null,
+                    "network": null,
+                    "request_three_d_secure": "automatic"
+                },
+                "us_bank_account": {
+                    "verification_method": "automatic"
+                }
+            },
+            "payment_method_types": [
+                "card",
+                "us_bank_account"
+            ],
+            "single_use_mandate": null,
+            "status": "requires_payment_method",
+            "usage": "off_session"
+        },
+        {
+            "id": "seti_1LG29ZADPmjTB2uJ0uDmqxuc",
+            "object": "setup_intent",
+            "application": null,
+            "cancellation_reason": null,
+            "client_secret": "seti_1LG29ZADPmjTB2uJ0uDmqxuc_secret_Lxy58zZEEhXnbLlCzYnpJRZrP7He42G",
+            "created": 1656513965,
+            "customer": "cus_LtSRcuAq1WnuP5",
+            "description": null,
+            "flow_directions": null,
+            "last_setup_error": null,
+            "latest_attempt": null,
+            "livemode": false,
+            "mandate": null,
+            "metadata": {},
+            "next_action": null,
+            "on_behalf_of": null,
+            "payment_method": null,
+            "payment_method_options": {
+                "card": {
+                    "mandate_options": null,
+                    "network": null,
+                    "request_three_d_secure": "automatic"
+                },
+                "us_bank_account": {
+                    "verification_method": "automatic"
+                }
+            },
+            "payment_method_types": [
+                "card",
+                "us_bank_account"
+            ],
+            "single_use_mandate": null,
+            "status": "requires_payment_method",
+            "usage": "off_session"
+        },
+        {
+            "id": "seti_1LG1Y7ADPmjTB2uJJ4VqYe7k",
+            "object": "setup_intent",
+            "application": null,
+            "cancellation_reason": null,
+            "client_secret": "seti_1LG1Y7ADPmjTB2uJJ4VqYe7k_secret_LxxTMNuRDQZy0axwo2HtJdULeWE40Rr",
+            "created": 1656511643,
+            "customer": "cus_LtSRcuAq1WnuP5",
+            "description": null,
+            "flow_directions": null,
+            "last_setup_error": null,
+            "latest_attempt": null,
+            "livemode": false,
+            "mandate": null,
+            "metadata": {},
+            "next_action": null,
+            "on_behalf_of": null,
+            "payment_method": null,
+            "payment_method_options": {
+                "card": {
+                    "mandate_options": null,
+                    "network": null,
+                    "request_three_d_secure": "automatic"
+                },
+                "us_bank_account": {
+                    "verification_method": "automatic"
+                }
+            },
+            "payment_method_types": [
+                "card",
+                "us_bank_account"
+            ],
+            "single_use_mandate": null,
+            "status": "requires_payment_method",
+            "usage": "off_session"
+        },
+        {
+            "id": "seti_1LFecVADPmjTB2uJxIWNZdDc",
+            "object": "setup_intent",
+            "application": null,
+            "cancellation_reason": null,
+            "client_secret": "seti_1LFecVADPmjTB2uJxIWNZdDc_secret_LxZmcWH68Ho52ab3DQiJJ0jAl92aY6d",
+            "created": 1656423503,
+            "customer": "cus_LtSRcuAq1WnuP5",
+            "description": null,
+            "flow_directions": null,
+            "last_setup_error": null,
+            "latest_attempt": null,
+            "livemode": false,
+            "mandate": null,
+            "metadata": {},
+            "next_action": null,
+            "on_behalf_of": null,
+            "payment_method": null,
+            "payment_method_options": {
+                "us_bank_account": {
+                    "verification_method": "automatic"
+                }
+            },
+            "payment_method_types": [
+                "us_bank_account"
+            ],
+            "single_use_mandate": null,
+            "status": "requires_payment_method",
+            "usage": "off_session"
+        }
+    ],
+    "has_more": false,
+    "url": "/v1/setup_intents"
+}
